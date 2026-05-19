@@ -1,11 +1,21 @@
-* {
+*{
     box-sizing: border-box;
 }
 
-.box {
+.box{
     width: 400px;
     height: 400px;
     margin: 10% auto;
     border: solid 10px rgba(0, 0, 0, 0.9);
     padding: 70px;
+}
+
+.pratos img{
+    width: 180px;
+    height: 150px;
+    border-radius: 8px;
+}
+
+.pratos img:hover{
+    transform: scale(1.5);
 }
